@@ -187,8 +187,12 @@ main {
   margin-block: 0.6rem;
 }
 
+.terceira-secao a {
+  text-decoration: none;
+}
+
 .terceira-secao p {
-  font-size: 0.937rem;
+  font-size: 0.9375rem;
   line-height: 1.625rem;
   color: var(--gunnetal);
 }
@@ -250,7 +254,7 @@ main {
     font-size: 2.5rem;
   }
 
-  .tecrceira-secao {
+  .terceira-secao {
     display: flex;
     grid-column: 1 / 4;
   }
