@@ -37,14 +37,14 @@ header {
   margin-bottom: 2rem;
 }
 
-.header-mobile button {
+header button {
   border: none;
   background: none;
   width: fit-content;
   cursor: pointer;
 }
 
-header nav {
+header nav.mobile {
   position: fixed;
   background-color: var(--almost-white);
   right: -16rem;
@@ -70,7 +70,7 @@ header nav button {
   margin-bottom: 4rem;
 }
 
-header nav a {
+header .mobile a {
   text-decoration: none;
   color: var(--dark-blue);
   font-size: 1.125rem;
