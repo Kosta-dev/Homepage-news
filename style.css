@@ -35,6 +35,9 @@ header {
   justify-content: space-between;
   align-items: center;
   margin-bottom: 2rem;
+
+  max-width: 1110px;
+  margin-inline: auto;
 }
 
 header button {
