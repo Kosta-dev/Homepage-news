@@ -196,20 +196,21 @@ main {
 @media(min-width: 1110px){
 
   main {
-    display: flex;
+    display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     gap: 1.75rem;
   }
 
   header .desktop {
-    display: none;
+    display: flex;
+    gap: 2.5rem;
   }
 
   header > button {
     display: none;
   }
 
-  header .desktop a::hover {
+  header .desktop a:hover {
     color: var(--vermillion)
   }
 
