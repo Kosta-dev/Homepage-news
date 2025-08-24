@@ -1,9 +1,3 @@
-
----
-
-Homepage-news
-
-
 Homepage-news
 
 Visão Geral
